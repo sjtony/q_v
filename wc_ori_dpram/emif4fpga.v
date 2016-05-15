@@ -9,10 +9,11 @@
 // Design Name:    ATX5 Elite
 // Module Name:    
 // Project Name:   ATX5 Elite 
-// Target Device:  SPARTAN 3E XC3S100E - 7TQ144
+// Target Device:  MAX10
 // Tool versions:  Altera Quarus 15 
 // Description:
-// ver 
+// ver 2016
+// description
 ////////////////////////////////////////////////////////////////////////////////////
 module emif4fpga( ctrl_out,
 				   sel_led,
