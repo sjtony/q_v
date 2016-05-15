@@ -12,7 +12,7 @@
 // Target Device:  SPARTAN 3E XC3S100E - 7TQ144
 // Tool versions:  Altera Quarus 15 
 // Description:
-// Modify:         added SPI
+// ver 
 ////////////////////////////////////////////////////////////////////////////////////
 module emif4fpga( ctrl_out,
 				   sel_led,
