@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sun May 15 10:09:16 2016
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : emif4fpga
+Top-level Entity Name : emif4fpga
+Family : MAX 10
+Total logic elements : 30
+    Total combinational functions : 22
+    Dedicated logic registers : 16
+Total registers : 16
+Total pins : 73
+Total virtual pins : 0
+Total memory bits : 4,096
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

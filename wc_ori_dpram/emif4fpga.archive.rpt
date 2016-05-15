@@ -1,0 +1,98 @@
+Archive Project report for emif4fpga
+Thu Mar 31 08:32:39 2016
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Thu Mar 31 08:32:39 2016 ;
+; Revision Name          ; emif4fpga                             ;
+; Top-level Entity Name  ; emif4fpga                             ;
+; Family                 ; MAX 10                                ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory D:/New-drive/max10_emif_dma/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'D:/New-drive/max10_emif_dma/emif4fpga_ok.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'emif4fpga.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/15.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 525 megabytes
+    Info: Processing ended: Thu Mar 31 08:32:39 2016
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++------------------------------------------------------+
+; Files Archived                                       ;
++------------------------------------------------------+
+; File Name                                            ;
++------------------------------------------------------+
+; altpll_top.bsf                                       ;
+; altpll_top.ppf                                       ;
+; altpll_top.qip                                       ;
+; altpll_top.v                                         ;
+; altpll_top_bb.v                                      ;
+; altpll_top_inst.v                                    ;
+; c:/altera/15.0/quartus/bin64/assignment_defaults.qdf ;
+; dpram.bsf                                            ;
+; dpram.qip                                            ;
+; dpram.v                                              ;
+; dpram_bb.v                                           ;
+; dpram_inst.v                                         ;
+; emif4fpga.qpf                                        ;
+; emif4fpga.qsf                                        ;
+; emif4fpga.sdc                                        ;
+; emif4fpga.v                                          ;
+; led_mux.qip                                          ;
+; led_mux.v                                            ;
+; led_mux_bb.v                                         ;
+; led_mux_inst.v                                       ;
+; output_files/Chain1.cdf                              ;
+; rev_test.qsf                                         ;
+; with_spi.qsf                                         ;
++------------------------------------------------------+
+
+

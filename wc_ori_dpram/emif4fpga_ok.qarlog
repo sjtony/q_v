@@ -1,0 +1,34 @@
+Quartus II Archive log --	D:/New-drive/max10_emif_dma/emif4fpga_ok.qarlog
+
+Archive:	D:/New-drive/max10_emif_dma/emif4fpga_ok.qar
+Date:		Thu Mar 31 08:32:39 2016
+Quartus II 64-Bit		15.0.0 Build 145 04/22/2015 SJ Full Version
+
+	=========== Files Selected: ===========
+D:/New-drive/max10_emif_dma/altpll_top.bsf
+D:/New-drive/max10_emif_dma/altpll_top.ppf
+D:/New-drive/max10_emif_dma/altpll_top.qip
+D:/New-drive/max10_emif_dma/altpll_top.v
+D:/New-drive/max10_emif_dma/altpll_top_bb.v
+D:/New-drive/max10_emif_dma/altpll_top_inst.v
+D:/New-drive/max10_emif_dma/dpram.bsf
+D:/New-drive/max10_emif_dma/dpram.qip
+D:/New-drive/max10_emif_dma/dpram.v
+D:/New-drive/max10_emif_dma/dpram_bb.v
+D:/New-drive/max10_emif_dma/dpram_inst.v
+D:/New-drive/max10_emif_dma/emif4fpga.qpf
+D:/New-drive/max10_emif_dma/emif4fpga.qsf
+D:/New-drive/max10_emif_dma/emif4fpga.sdc
+D:/New-drive/max10_emif_dma/emif4fpga.v
+D:/New-drive/max10_emif_dma/led_mux.qip
+D:/New-drive/max10_emif_dma/led_mux.v
+D:/New-drive/max10_emif_dma/led_mux_bb.v
+D:/New-drive/max10_emif_dma/led_mux_inst.v
+D:/New-drive/max10_emif_dma/output_files/Chain1.cdf
+D:/New-drive/max10_emif_dma/rev_test.qsf
+D:/New-drive/max10_emif_dma/with_spi.qsf
+c:/altera/15.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 23 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

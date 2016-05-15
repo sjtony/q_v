@@ -1,0 +1,29 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\New-drive\max10_emif_dma\rs232_mockup.qsys --block-symbol-file --output-directory=D:\New-drive\max10_emif_dma\rs232_mockup --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading max10_emif_dma/rs232_mockup.qsys
+Progress: Reading input file
+Progress: Adding rs232_0 [altera_up_avalon_rs232 15.0]
+Progress: Parameterizing module rs232_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\New-drive\max10_emif_dma\rs232_mockup.qsys --synthesis=VERILOG --output-directory=D:\New-drive\max10_emif_dma\rs232_mockup\synthesis --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading max10_emif_dma/rs232_mockup.qsys
+Progress: Reading input file
+Progress: Adding rs232_0 [altera_up_avalon_rs232 15.0]
+Progress: Parameterizing module rs232_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: rs232_mockup: Generating rs232_mockup "rs232_mockup" for QUARTUS_SYNTH
+Info: rs232_0: Starting Generation of RS232 UART
+Info: rs232_0: "rs232_mockup" instantiated altera_up_avalon_rs232 "rs232_0"
+Info: rs232_mockup: Done "rs232_mockup" with 2 modules, 6 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

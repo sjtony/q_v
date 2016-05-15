@@ -1,0 +1,80 @@
+`timescale 1ns / 1ps
+
+//resynthesize = true;
+////////////////////////////////////////////////////////////////////////////////
+// Company: 	   Kulicke and Soffa
+// Engineer:	   SJ HE
+//
+// Create Date:    01/03/2016
+// Design Name:    ATX5 Elite
+// Module Name:    
+// Project Name:   ATX5 Elite 
+// Target Device:  SPARTAN 3E XC3S100E - 7TQ144
+// Tool versions:  Altera Quarus 15 
+// Description:
+
+////////////////////////////////////////////////////////////////////////////////////
+module emif4fpga( ctrl_out,
+				   //ema_wait,
+				   ema_cs,
+				   ema_we_dqm,
+				   ema_a,
+				   ema_ba,
+				   ema_oe,
+				   ema_we,
+				   ema_clk,
+				   ema_d);
+
+// variable to be used for other module, not for IO input or output
+	output	[7:0]ctrl_out;
+	//output	ema_wait;
+
+    input 	ema_cs;							
+    input 	[1:0]ema_we_dqm;							
+    input 	[12:0]ema_a;							
+    input 	[1:0]ema_ba;							
+    input 	ema_oe;							
+    input 	ema_we;							
+    input 	ema_clk;							
+    inout   [15:0] ema_d;
+	
+	
+	// code start here 
+	//wire 	rst;			
+	wire 	dpram_oe;			
+	wire 	[15:0] fpga2dsp;
+	wire	[15:0] dpram_din;
+	reg 	[15:0] dsp2reg_ctrl;
+	//assign	rst = ema_d;              			// 
+	assign	dpram_din = ema_d;              			// 
+	assign	dpram_oe = !ema_oe && !ema_cs;              // dual port mem data output to DSP enable "1" = enable
+	assign 	ema_d = dpram_oe ? fpga2dsp : 16'hzzzz;		// always "Z" except reading time
+
+	//=========== dsp writing to fpga reg  ==========
+/* 
+   always @(posedge ema_we or posedge rst) begin
+		if (rst) begin
+			dsp2reg_ctrl <= 0;
+		end
+		else if ( !ema_cs ) begin
+			case (ema_a)
+				8'h1   : dsp2reg_ctrl <= dpram_din;	// dsp write to reg of FPGA at 8001h 
+			endcase
+			end
+	end
+ */
+   always @(posedge ema_we) begin
+		if (!ema_cs) begin
+			case (ema_a)
+				8'h1   : dsp2reg_ctrl <= dpram_din;	// dsp write to reg of FPGA at 8001h 
+			endcase
+		end
+	end
+	
+	
+	// dsp read from fpga either ADC or dpram for the moment 8000h  foradc  and 4000-40ff for dpram 
+	//assign 	fpga2dsp = (dsp_addr15)?diff_ph:dpram2dsp;		
+	assign 	fpga2dsp = 16'h55aa;		
+	assign 	ctrl_out = dsp2reg_ctrl;		
+	
+endmodule	 

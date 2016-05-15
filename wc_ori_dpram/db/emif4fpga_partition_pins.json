@@ -1,0 +1,257 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ctrl_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "spi0_somi",
+					"strict" : false
+				},
+				{
+					"name" : "g_sensor_sdi",
+					"strict" : false
+				},
+				{
+					"name" : "g_sensor_sclk",
+					"strict" : false
+				},
+				{
+					"name" : "g_sensor_cs_n",
+					"strict" : false
+				},
+				{
+					"name" : "tp1_p9_13",
+					"strict" : false
+				},
+				{
+					"name" : "tp2_p9_24",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[8]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[9]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[10]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[11]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[12]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[13]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[14]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp2reg_ctrl[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_d[15]",
+					"strict" : false
+				},
+				{
+					"name" : "sel_led",
+					"strict" : false
+				},
+				{
+					"name" : "g_sensor_sdo",
+					"strict" : false
+				},
+				{
+					"name" : "spi0_simo",
+					"strict" : false
+				},
+				{
+					"name" : "spi0_clk",
+					"strict" : false
+				},
+				{
+					"name" : "spi0_scsn4",
+					"strict" : false
+				},
+				{
+					"name" : "ema_we",
+					"strict" : false
+				},
+				{
+					"name" : "ema_cs",
+					"strict" : false
+				},
+				{
+					"name" : "ema_a[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_a[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_ba[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_a[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_a[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_a[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_a[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ema_oe",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
